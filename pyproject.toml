@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "minecraft_server_interface"
+version = "0.1.0"
+description = ""
+authors = ["Adrien ETIENNE <aetienne@onestock-retail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+Flask = "^2.1.2"
+flask-sock = "^0.5.2"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
